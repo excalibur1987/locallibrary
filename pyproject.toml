@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "locallibrary"
+version = "0.1.0"
+description = ""
+authors = ["Omar Ali AbdelSalam <excalibur1987@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
